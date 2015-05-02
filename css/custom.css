@@ -9,6 +9,9 @@ body {
 .container {
 	background: #fff;
 }
+.container h1 {
+	text-transform: capitalize;
+}
 
 @media (min-width: 768px) {
   .container {
@@ -17,4 +20,19 @@ body {
 }
 .container-narrow > hr {
   margin: 30px 0;
+}
+
+/* Custom format for block-level elements */
+.custom-group {
+	background: #f5f5f5;
+	border: 1px solid #333;
+	border-radius: 4px;
+	margin: 0 0 20px;
+	padding: 10px 14px;
+}
+
+/* A means to provide overflow */
+.overflow-auto {
+	width: 100%;
+	overflow: auto;
 }

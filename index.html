@@ -30,7 +30,27 @@
   <body>
 
     <div class="container">
-
+			<h1 class="h2 page-header">Sieve of Eratosthenes</h1>
+			<!-- "Generate prime numbers until the number:" -->
+			<div class="custom-group">
+				<div class="row">
+					<div class="col-lg-8">
+						<label for="number" class="h4">Generate prime numbers until</label>
+					</div><!-- /.col-lg-6 -->
+					<div class="col-lg-4">
+						<div class="input-group">
+							<input type="number" class="form-control" id="number" min="2" step="1">
+							<span class="input-group-btn">
+								<button class="btn btn-primary" type="button">Go!</button>
+							</span>
+						</div><!-- /input-group -->
+					</div><!-- /.col-lg-6 -->
+				</div><!-- /.row -->
+			</div>
+			<!-- Command output (in a div) -->
+			<div class="custom-group overflow-auto">
+				<samp id="result"></samp>
+			</div>
     </div> <!-- /container -->
 
 
