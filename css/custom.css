@@ -36,3 +36,8 @@ body {
 	width: 100%;
 	overflow: auto;
 }
+
+/* A container for showing numbers in a **samp** element */
+span.number {
+	padding: 2px 5px;
+}
